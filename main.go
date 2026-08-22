@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/rara-ch/chip-8/internal/memory"
+)
 
 func main() {
-	fmt.Println("Chip 8 Emulator")
+	memory := memory.NewMemory()
+	fmt.Println("Memory: ", memory)
 }
