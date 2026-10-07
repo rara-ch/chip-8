@@ -12,5 +12,8 @@ This project is currently in development and is aimed to be completed by 11/10/2
 
 - [x] Display
 - [x] RAM
+- [x] ROM Support
 - [ ] Timers
 - [ ] CPU
+- [ ] Stack
+- [ ] IO
